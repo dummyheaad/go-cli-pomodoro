@@ -1,4 +1,4 @@
 # Go CLI App Pomodoro
 
 ## Preview
-![Preview]("/assets/preview.png")
+![Preview]("https://github.com/dummyheaad/go-cli-pomodoro/blob/master/assets/preview.png")
