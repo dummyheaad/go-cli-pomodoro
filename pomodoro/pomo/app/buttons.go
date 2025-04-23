@@ -64,6 +64,8 @@ func newButtonSet(ctx context.Context, config *pomodoro.IntervalConfig,
 		w.update([]int{}, "", "Paused... press start to continue", "", redrawCh)
 	}
 
+	// Button definitions
+
 	btStart, err := button.New("(s)tart", func() error {
 		go startInterval()
 		return nil
